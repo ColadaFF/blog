@@ -59,9 +59,11 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <script
+          async
+          data-uid="c973827c22"
+          src="https://fabulous-composer-5357.ck.page/c973827c22/index.js"
+        ></script>
       </footer>
     </div>
   )
